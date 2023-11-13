@@ -1,0 +1,49 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$SelectAll">
+      <i c="2" l="1664972987044" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="27" l="1664972990042" />
+    </e>
+    <e n="EditorCopy">
+      <i c="1" l="1664972722566" />
+    </e>
+    <e n="EditorEscape">
+      <i c="1" l="1664972865054" />
+    </e>
+    <e n="EditorLeft">
+      <i c="3" l="1664972596507" />
+    </e>
+    <e n="EditorPaste">
+      <i c="1" l="1664972724719" />
+    </e>
+    <e n="EditorRight">
+      <i c="1" l="1664972697460" />
+    </e>
+    <e n="ExternalSystem.ProjectRefreshAction">
+      <i c="4" l="1664972726149" />
+    </e>
+    <e n="GotoDeclaration">
+      <i c="2" l="1664973175918" />
+    </e>
+    <e n="ShowSettings">
+      <i c="5" l="1665231326049" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="1" l="1664972465368" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.EmptyAction$MyDelegatingAction">
+      <i c="2" l="1664973152838" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="1" l="1665231318828" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$4">
+      <i c="1" l="1664973571084" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="1" l="1664972744039" />
+    </e>
+  </component>
+</application>

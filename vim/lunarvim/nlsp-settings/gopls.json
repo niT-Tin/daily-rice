@@ -1,0 +1,5 @@
+
+{
+    "go.inlayHints.assignVariableTypes": true,
+    "go.inlayHints.parameterNames": true
+}

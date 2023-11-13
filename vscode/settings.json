@@ -1,0 +1,151 @@
+{
+  "vim.easymotion": true,
+  "vim.surround": true,
+  "vim.leader": "<space>",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "k"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "e"
+      ],
+      "commands": [
+        {
+          "command": "workbench.action.toggleSidebarVisibility"
+        },
+        {
+          "command": "workbench.action.toggleActivityBarVisibility",
+          "when": "!terminalFocus" // 防止在终端中使用该快捷键
+        }
+        // "workbench.action.toggleSidebarVisibility"
+      ],
+    },
+    {
+      "before": [
+        "ctrl+w l"
+      ],
+      "commands": [
+        "workbench.action.focusNextGroup"
+      ],
+      "when": "explorerViewletFocus && !inputFocus"
+    },
+    {
+      "before": [
+        "<leader>",
+        "b",
+        "b"
+      ],
+      "commands": [
+        "workbench.action.previousEditor"
+      ],
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "before": [
+        "<leader>",
+        "b",
+        "n"
+      ],
+      "commands": [
+        "workbench.action.nextEditor"
+      ],
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "before": [
+        "<leader>",
+        "b",
+        "k"
+      ],
+      "commands": [
+        "workbench.action.closeActiveEditor"
+      ],
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "before": [
+        "<leader>",
+        "s",
+        "t"
+      ],
+      "commands": [
+        "actions.find"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "r"
+      ],
+      "commands": [
+        "editor.action.referenceSearch.trigger",
+      ],
+      "when": "editorTextFocus && vim.active && !suggestWidgetVisible && !inQuickOpen"
+    },
+    {
+      "before": [
+        "<leader>",
+        "f"
+      ],
+      "commands": [
+        "workbench.action.quickOpen"
+      ],
+      "when": "!editorFocus"
+    }
+  ],
+  "editor.inlineSuggest.enabled": true,
+  "editor.wordWrap": "on",
+  "explorer.compactFolders": false,
+  "github.copilot.enable": {
+    "*": false,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false
+  },
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontWeight": "bold",
+  "editor.fontSize": 17,
+  "editor.stickyScroll.enabled": true,
+  "editor.fontLigatures": true,
+  "editor.lineNumbers": "relative",
+  "editor.guides.bracketPairs": true,
+  "editor.smoothScrolling": true,
+  "dart.flutterRunAdditionalArgs": [
+    "--no-sound-null-safety"
+  ],
+  "workbench.colorTheme": "Ayu Mirage",
+  "terminal.integrated.inheritEnv": false,
+  "haskell.manageHLS": "GHCup",
+  "go.goroot": "/home/liuzehao/applications/go",
+  "explorer.confirmDelete": false,
+  "extensions.ignoreRecommendations": true,
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-17",
+      "path": "/home/liuzehao/applications/jdks/jdk-17.0.6"
+    }
+  ],
+  "boot-java.rewrite.reconcile": true,
+  "window.titleBarStyle": "custom",
+  "vscode_custom_css.imports": [
+    "file:///home/liuzehao/.config/Code/User/cuscss/custom.css"
+  ],
+  "editor.cursorBlinking": "smooth",
+  "dart.flutterSdkPath": "/home/liuzehao/applications/flutter",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "git.ignoreLegacyWarning": true,
+  "rust-analyzer.trace.extension": true,
+}

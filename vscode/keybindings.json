@@ -1,0 +1,37 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "ctrl+w",
+    "command": "-workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "ctrl+k e",
+    "command": "-workbench.files.action.focusOpenEditorsView",
+    "when": "workbench.explorer.openEditorsView.active"
+  },
+  {
+    "key": "ctrl+w l",
+    "command": "workbench.action.focusNextGroup",
+    "when": "explorerViewletFocus && !inputFocus"
+  },
+  // {
+  //   "key": "a",
+  //   "command": "explorer.newFile",
+  //   "when": "explorerViewletFocus && filesExplorerFocus"
+  // },
+  // {
+  //   "key": "shift+a",
+  //   "command": "explorer.newFolder",
+  //   "when": "explorerViewletFocus && filesExplorerFocus"
+  // },
+  {
+    "key": "ctrl+n",
+    "command": "workbench.action.quickOpenSelectNext",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "workbench.action.quickOpenSelectPrevious",
+    "when": "inQuickOpen"
+  }
+]

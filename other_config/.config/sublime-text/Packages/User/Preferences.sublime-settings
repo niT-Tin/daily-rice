@@ -1,0 +1,7 @@
+{
+	"theme": "Default Dark.sublime-theme",
+	"font_face": "Hack Nerd Font Mono",
+	"font_size": 12,
+	"wrap_width": 80,
+	"match_brackets": true,
+}

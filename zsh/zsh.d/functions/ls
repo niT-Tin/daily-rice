@@ -1,0 +1,10 @@
+function ls() {
+  files=( *(D) ) 2>/dev/null
+  if (( ${#files[@]} < $LINES)) {
+    lsd --almost-all -l "$@"
+  } else {
+    lsd -l "$@"
+  }
+}
+
+

@@ -1,0 +1,37 @@
+<application>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/projects/java/rom_example/src/main/java/parser/Parser.java" timestamp="1664973077182">
+        <mark key="'" line="17" column="16" />
+      </file>
+      <file name="$USER_HOME$/projects/java/rom_example/src/main/java/parser/ast/Expr.java" timestamp="1664973175918">
+        <mark key="'" line="107" column="13" />
+        <mark key="[" line="108" column="36" />
+        <mark key="]" line="108" column="36" />
+        <mark key="^" line="108" column="36" />
+        <mark key="." line="108" column="35" />
+      </file>
+      <file name="/" timestamp="1665231333851">
+        <mark key="[" line="0" column="0" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="17" column="16" filename="$USER_HOME$/projects/java/rom_example/src/main/java/parser/Parser.java" />
+      <jump line="107" column="13" filename="$USER_HOME$/projects/java/rom_example/src/main/java/parser/ast/Expr.java" />
+    </jumps>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="." type="4">
+        <text encoding="base64" />
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-dir encoding="base64">MQ==</last-dir>
+      <show-last encoding="base64">dHJ1ZQ==</show-last>
+    </search>
+  </component>
+</application>

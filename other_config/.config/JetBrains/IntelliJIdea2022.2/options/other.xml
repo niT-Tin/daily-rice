@@ -1,0 +1,70 @@
+<application>
+  <component name="DynamicPluginEnabler">
+    <trackers>
+      <map>
+        <entry key="2FiQZIRCvuAdhNzs8kBBTHLIBe4">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+      </map>
+    </trackers>
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontFace" value="Dialog" />
+    <option name="fontScale" value="1.0" />
+    <option name="fontSize" value="16.0" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "CWM_LOGGING_VERSION": "1",
+    "InstalledPluginsSearchHistory": "theme\nthe",
+    "MarketplacePluginsSearchHistory": "theme\none dark\none dar\none dart\none da",
+    "NextRunPlatformUpdateBuild": "IU-222.4345.14/2022.2.3",
+    "NextRunPlatformUpdateVersion": "2022.2.3",
+    "NonModalCommitCustomization.IsApplied": "true",
+    "PluginConfigurable.selectionTab": "1",
+    "RunOnceActivity.se.text.search": "true",
+    "SettingsSearchHistory": "font\ntheme\nplug",
+    "appcds.runOnSecondStart": "IU-222.4167.29-d9df37e39f837e26f96f00d1be1e3b7f143ee4cba908c2bb879307a08e726365",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "bundled.plugins.list.saved.version": "IU-222.4167.29",
+    "defaultpackageserviceconfig.fulltext": "https://package-search.services.jetbrains.com/api/search/idea/fulltext",
+    "defaultpackageserviceconfig.suggest": "https://package-search.services.jetbrains.com/api/search/idea/suggest",
+    "defaultpackageserviceconfig.updated.ts": "1664972525039",
+    "eclipse.projects.detected": "",
+    "evlsprt3.222": "25",
+    "fileTypeChangedCounter": "1",
+    "fontSizeToResetConsole": "17.0",
+    "fontSizeToResetEditor": "17.0",
+    "gotit.previous.run": "IU-222.4167.29",
+    "ide.memory.adjusted": "true",
+    "ideavim.statistics.timestamp": "1665231333855",
+    "input.method.disabler.muted": "true",
+    "installed.kotlin.plugin.version": "222-1.7.10-release-334-IJ4167.29",
+    "last_opened_file_path": "/home/liuzehao/projects/java/rom_example",
+    "previousColorScheme": "_@user_One Dark",
+    "registry.to.advanced.settings.migration.build": "IU-222.4167.29",
+    "tasks.pass.word.conversion.enforced": "true",
+    "ts.lib.d.ts.version": "4.7.4"
+  },
+  "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/liuzehao/projects/java/rom_example"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.profiler.ultimate.hprof.impl.HprofFileTypeDetector",
+      "com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector",
+      "com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector",
+      "com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+</application>

@@ -1,0 +1,29 @@
+* 遇见的问题以及解决办法记录
+** emacs(28.1 通过源码编译安装)lsp-mode下c++无法找到iostream错误
+*原因* ：在我的ubuntu20.04.4的/usr/lib/gcc/x86_64-linux-gnu/10/目录下不存在libstdc++.a静态库，由此lsp-mode无法检测到iostream文件
+*解决方案*
+此处我的x86_65-linux-gnu下有10,9,8三个目录，每个目录中都没有libstdc++.a这个静态文件因此需要安装，如果其中一个存在，希望尝试删除其他不存在的目录可以解决
+#+begin_src shell
+sudo apt install libstdc++6-10-dbg
+#+end_src
+附：emacs 28.1源码安装shell命令
+#+begin_src shell
+  # 下载emacs28.1
+  wget https://ftp.gnu.org/gnu/emacs/emacs-28.1.tar.gz
+  tar -zxvf emacs-28.1.tar.gz
+  cd emacs-28.1 # 注意安装之后不要删除源码文件夹，未来可以使用make uninstall卸载emacs
+  sudo apt update
+  # 安装相关依赖
+  sudo apt install -y autoconf make gcc texinfo libgtk-3-dev libxpm-dev \
+     libjpeg-dev libgif-dev libtiff5-dev libgnutls28-dev libncurses5-dev \
+     libjansson-dev libharfbuzz-dev libharfbuzz-bin imagemagick libmagickwand-dev libgccjit-10-dev libgccjit0 gcc-10 libjansson4 libjansson-dev xaw3dg-dev texinfo libx11-dev
+
+  export CC="gcc-10"
+  ./autogen.sh
+  ./configure --with-native-compilation -with-json --with-modules --with-harfbuzz --with-compress-install \
+   --with-threads --with-included-regex --with-x-toolkit=lucid --with-zlib --with-jpeg --with-png --with-imagemagick --with-tiff --with-xpm --with-gnutls \
+   --with-xft --with-xml2 --with-mailutils
+
+  make -j$(nproc)
+  sudo make install
+#+end_src

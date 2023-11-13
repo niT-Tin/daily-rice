@@ -1,0 +1,21 @@
+set nu
+set relativenumber
+syntax on
+inoremap jk <Esc>
+set timeoutlen=150
+let mapleader = " "
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'easymotion/vim-easymotion'
+Plugin 'wakatime/vim-wakatime'
+call vundle#end()
+filetype plugin indent on
+let g:neocomplcache_enable_at_startup = 1
+map <Leader> <Plug>(easymotion-prefix)
+" map  <Leader>f <Plug>(easymotion-bd-f)
+nmap s <Plug>(easymotion-bd-f)
+nmap <Leader>f <Plug>(easymotion-overwin-f)
+
+" s{char}{char} to move to {char}{char}
+" nmap s <Plug>(easymotion-overwin-f2)

@@ -1,0 +1,23 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/projects/java/rom_example">
+          <value>
+            <RecentProjectMetaInfo frameTitle="rom_example – ExprHOF.java [rom_example.main]" opened="true" projectWorkspaceId="2FiQZIRCvuAdhNzs8kBBTHLIBe4">
+              <option name="activationTimestamp" value="1665231342503" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-222.4167.29" />
+              <option name="buildTimestamp" value="1663072612785" />
+              <frame x="2180" y="40" width="1400" height="1000" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1664972479934" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/projects/java/rom_example" />
+    <option name="lastProjectLocation" value="$USER_HOME$/projects/java" />
+  </component>
+</application>

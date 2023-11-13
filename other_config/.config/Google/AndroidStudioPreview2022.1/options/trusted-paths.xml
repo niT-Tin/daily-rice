@@ -1,0 +1,19 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/AndroidStudioProjects/MyApplicationEmpty" value="true" />
+        <entry key="$USER_HOME$/AndroidStudioProjects/MyApplicationLater" value="true" />
+        <entry key="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab" value="true" />
+        <entry key="$USER_HOME$/AndroidStudioProjects/lab1" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs" />
+      </list>
+    </option>
+  </component>
+</application>

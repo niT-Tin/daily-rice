@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=LXRandR 自动启动
+Comment=以 LXRandR 中完成的设置启动 xrandr
+Exec=sh -c 'xrandr --output DP-1-0.9 --auto --output DP-1-0.8 --auto --right-of DP-1-0.9 --output eDP-1 --mode 1920x1080 --rate 144.03 --left-of DP-1-0.9'
+OnlyShowIn=LXDE

@@ -1,0 +1,46 @@
+.quick-input-widget {
+  position: absolute;
+  width: 600px;
+  z-index: 2000;
+  padding-bottom: 6px;
+  left: 50%;
+  top: 24% !important;
+  margin-left: -300px;
+  border: 1px solid #22A7A2;
+  border-bottom: 2px solid #22A7A2;
+}
+
+.search-view .linematch>.match {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: pre;
+  color: #b9a888;
+  background: #053d58;
+  padding: 0 10px;
+  border-left: 2px dotted #756c5c;
+  margin-left: 14px;
+}
+
+/* 可见时 */
+.editor-widget.find-widget.visible {
+  position: absolute;
+  left: 50%;
+  margin-left: -300px;
+  z-index: 2000;
+  padding-bottom: 6px;
+  border: 1px solid rgb(167 192 128 / 82%);
+  border-bottom: 2px solid rgb(167 192 128 / 82%);
+}
+
+/* 不可见时 */
+.editor-widget.find-widget {
+  position: absolute;
+  left: 50%;
+  margin-left: -300px;
+  z-index: 2000;
+  padding-bottom: 6px;
+  border: 1px solid rgb(167 192 128 / 82%);
+  border-bottom: 2px solid rgb(167 192 128 / 82%);
+}
+
+/* ============================ */

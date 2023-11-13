@@ -1,0 +1,45 @@
+name:
+  .trash:             
+  .cargo:             
+  .emacs.d:           
+  a.out:              
+  .vimrc:             "\e[1;32m\e[0m"
+  .viminfo:           "\e[1;32m\e[0m"
+  .node_repl_history: "\e[1;32m\e[0m"
+  package.json:       "\e[1;32m\e[0m"
+  package-lock.json:  "\e[1;32m\e[0m"
+  Dockerfile:         "\e[38;2;1;148;215m \e[0m"
+  Cargo.lock:         "\e[38;2;197;147;118m\e[0m"
+  Cargo.toml:         "\e[38;2;197;147;118m\e[0m"
+  settings.gradle:    "\e[38;2;48;215;129m\e[0m"
+
+extension:
+  go:   "\e[38;2;118;225;254m\e[0m"
+  hs:   "\e[1;35m \e[0m"
+  # rs: 🦀
+  rs:   "\e[38;2;197;147;118m\e[0m"
+  js:   "\e[38;2;255;194;53m \e[0m"
+  pdf:  "\e[38;2;214;34;24m \e[0m"
+  html: "\e[38;2;255;112;25m \e[0m"
+  htm:  "\e[38;2;255;112;25m \e[0m"
+  css:  "\e[38;2;0;159;233m \e[0m"
+  c:    "\e[1;94m\e[0m"
+  cpp:  "\e[1;94m\e[0m"
+  h:    "\e[1;95m\e[0m"
+  hxx:  "\e[1;95m\e[0m"
+  lua:  "\e[38;2;3;3;156m\e[0m"
+  org:  
+
+filetype:
+  # dir: 📂
+  # dir:          "\e[38;2;255;204;102m\e[0m\e[38;2;231;208;162m"
+  dir:          "\e[38;2;255;204;102m \e[0m\e[38;2;231;208;162m"
+  # file:       📄
+  # pipe:       📩
+  socket:       󰆨
+  executable:   
+  symlink-dir:  
+  symlink-file: 
+  device-char:  
+  device-block: 󰜫
+  special:      

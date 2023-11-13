@@ -1,0 +1,26 @@
+00:00:00.492018 VirtualBox GUI VM Selector Window 6.1.38 r153438 linux.amd64 (Sep  1 2022 19:47:47) release log
+00:00:00.492019 Log opened 2022-10-09T08:49:45.735743000Z
+00:00:00.492019 Build Type: release
+00:00:00.492020 OS Product: Linux
+00:00:00.492021 OS Release: 5.19.12-zen1-1-zen
+00:00:00.492021 OS Version: #1 ZEN SMP PREEMPT_DYNAMIC Wed, 28 Sep 2022 13:21:23 +0000
+00:00:00.492031 DMI Product Name: HP Pavilion Gaming Laptop 15-dk1xxx
+00:00:00.492034 DMI Product Version: Type1ProductConfigId
+00:00:00.492037 Firmware type: UEFI
+00:00:00.492686 Secure Boot: Disabled
+00:00:00.492718 Host RAM: 31903MB (31.1GB) total, 30527MB (29.8GB) available
+00:00:00.492722 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.492722 Process ID: 9450
+00:00:00.492722 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.492756 Qt version: 5.15.6
+00:00:00.582404 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:01.000391 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 6x26 x 1900x1040
+00:00:01.009026 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:55.844299 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:04.648843 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:26.028372 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:09:04.775634 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:17:29.934633 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:17:30.194706 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:17:51.440375 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:26:49.540433 GUI: UIMediumEnumerator: Medium-enumeration finished!

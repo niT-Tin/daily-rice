@@ -1,0 +1,25 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="ShowSettings">
+      <i c="1" l="1664768363414" />
+    </e>
+    <e n="WelcomeScreen.OpenDirectoryProject">
+      <i c="1" l="1664767723388" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.ActionGroupPanelWrapper$6">
+      <i c="1" l="1664767711017" />
+    </e>
+    <e n="com.jetbrains.python.packaging.ui.PyInstalledPackagesPanel$1">
+      <i c="1" l="1664768485637" />
+    </e>
+    <e n="com.jetbrains.python.sdk.AddLocalInterpreterAction">
+      <i c="3" l="1664768453498" />
+    </e>
+    <e n="com.jetbrains.python.sdk.PySdkPopupFactory$InterpreterSettingsAction">
+      <i c="2" l="1664768393293" />
+    </e>
+    <e n="editRunConfigurations">
+      <i c="1" l="1664768386697" />
+    </e>
+  </component>
+</application>

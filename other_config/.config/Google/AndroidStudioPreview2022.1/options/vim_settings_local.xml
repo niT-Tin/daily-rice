@@ -1,0 +1,211 @@
+<application>
+  <component name="VimHistorySettings">
+    <history>
+      <history-search>
+        <entry encoding="base64">VE9ETw==</entry>
+      </history-search>
+      <history-cmd>
+        <entry encoding="base64">bm9o</entry>
+        <entry encoding="base64" />
+        <entry encoding="base64">dw==</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="/Dummy.txt" timestamp="1664208191468">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/MyApplicationEmpty/app/src/main/java/com/example/myapplicationempty/MainActivity.kt" timestamp="1664809042293">
+        <mark key="'" line="9" column="39" />
+        <mark key="[" line="9" column="62" />
+        <mark key="]" line="9" column="62" />
+        <mark key="." line="9" column="61" />
+        <mark key="^" line="9" column="62" />
+      </file>
+      <file name="/Dummy.lcf" timestamp="1664983786407">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/fragment.kt" timestamp="1665120680710">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/lab1/app/src/main/java/com/example/lab1/MainActivity.kt" timestamp="1664247767643">
+        <mark key="[" line="82" column="39" />
+        <mark key="]" line="82" column="41" />
+        <mark key="." line="82" column="40" />
+        <mark key="^" line="82" column="41" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/MyApplicationEmpty/app/src/main/java/com/example/myapplicationempty/ThisMain.kt" timestamp="1665119374203">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="^" line="6" column="13" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/com/example/android/codelab/animation/ui/home/Home.kt" timestamp="1664808601383">
+        <mark key="'" line="685" column="19" />
+        <mark key="j" line="294" column="46" />
+        <mark key="[" line="706" column="22" />
+        <mark key="]" line="706" column="48" />
+        <mark key="." line="706" column="47" />
+        <mark key="^" line="706" column="48" />
+      </file>
+      <file name="/" timestamp="1664353310302">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/MainF.kt" timestamp="1664255636268">
+        <mark key="'" line="16" column="0" />
+        <mark key="[" line="0" column="9" />
+        <mark key="]" line="0" column="5" />
+        <mark key="." line="0" column="4" />
+        <mark key="^" line="0" column="5" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/MyApplicationEmpty/app/src/main/java/ThisMain.kt" timestamp="1665160336774">
+        <mark key="'" line="40" column="25" />
+        <mark key="[" line="39" column="42" />
+        <mark key="]" line="39" column="42" />
+        <mark key="." line="39" column="43" />
+        <mark key="^" line="39" column="43" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/MyApplicationEmpty/app/build.gradle" timestamp="1665158535513">
+        <mark key="[" line="41" column="0" />
+        <mark key="]" line="42" column="86" />
+        <mark key="." line="41" column="0" />
+        <mark key="^" line="27" column="24" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/MyApplicationLater/app/src/main/java/com/example/myapplicationlater/MainActivity.kt" timestamp="1665365271307">
+        <mark key="'" line="145" column="55" />
+        <mark key="[" line="135" column="24" />
+        <mark key="]" line="135" column="24" />
+        <mark key="." line="135" column="24" />
+        <mark key="^" line="44" column="38" />
+      </file>
+      <file name="/fragment.java" timestamp="1665119383705">
+        <mark key="[" line="0" column="0" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="39" column="10" filename="$USER_HOME$/AndroidStudioProjects/MyApplicationLater/app/src/main/java/com/example/myapplicationlater/MainActivity.kt" />
+      <jump line="43" column="10" filename="$USER_HOME$/AndroidStudioProjects/MyApplicationLater/app/src/main/java/com/example/myapplicationlater/MainActivity.kt" />
+      <jump line="40" column="8" filename="$USER_HOME$/AndroidStudioProjects/MyApplicationLater/app/src/main/java/com/example/myapplicationlater/MainActivity.kt" />
+      <jump line="38" column="12" filename="$USER_HOME$/AndroidStudioProjects/MyApplicationLater/app/src/main/java/com/example/myapplicationlater/MainActivity.kt" />
+      <jump line="55" column="17" filename="$USER_HOME$/AndroidStudioProjects/MyApplicationLater/app/src/main/java/com/example/myapplicationlater/MainActivity.kt" />
+      <jump line="56" column="26" filename="$USER_HOME$/AndroidStudioProjects/MyApplicationLater/app/src/main/java/com/example/myapplicationlater/MainActivity.kt" />
+      <jump line="35" column="118" filename="$USER_HOME$/AndroidStudioProjects/lab1/app/src/main/java/com/example/lab1/MainActivity.kt" />
+      <jump line="43" column="26" filename="$USER_HOME$/AndroidStudioProjects/lab1/app/src/main/java/com/example/lab1/MainActivity.kt" />
+      <jump line="60" column="29" filename="$USER_HOME$/AndroidStudioProjects/lab1/app/src/main/java/com/example/lab1/MainActivity.kt" />
+      <jump line="78" column="57" filename="$USER_HOME$/AndroidStudioProjects/lab1/app/src/main/java/com/example/lab1/MainActivity.kt" />
+      <jump line="83" column="10" filename="$USER_HOME$/AndroidStudioProjects/lab1/app/src/main/java/com/example/lab1/MainActivity.kt" />
+      <jump line="75" column="8" filename="$USER_HOME$/AndroidStudioProjects/lab1/app/src/main/java/com/example/lab1/MainActivity.kt" />
+      <jump line="113" column="11" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/com/example/android/codelab/animation/ui/home/Home.kt" />
+      <jump line="11" column="19" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/MainF.kt" />
+      <jump line="160" column="4" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/com/example/android/codelab/animation/ui/home/Home.kt" />
+      <jump line="273" column="33" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/com/example/android/codelab/animation/ui/home/Home.kt" />
+      <jump line="181" column="12" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/com/example/android/codelab/animation/ui/home/Home.kt" />
+      <jump line="272" column="12" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/com/example/android/codelab/animation/ui/home/Home.kt" />
+      <jump line="0" column="1" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/MainF.kt" />
+      <jump line="20" column="0" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/MainF.kt" />
+      <jump line="2" column="20" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/MainF.kt" />
+      <jump line="17" column="0" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/MainF.kt" />
+      <jump line="290" column="16" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/com/example/android/codelab/animation/ui/home/Home.kt" />
+      <jump line="299" column="9" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/com/example/android/codelab/animation/ui/home/Home.kt" />
+      <jump line="377" column="58" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/com/example/android/codelab/animation/ui/home/Home.kt" />
+      <jump line="105" column="19" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/com/example/android/codelab/animation/ui/home/Home.kt" />
+      <jump line="287" column="7" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/com/example/android/codelab/animation/ui/home/Home.kt" />
+      <jump line="369" column="11" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/com/example/android/codelab/animation/ui/home/Home.kt" />
+      <jump line="614" column="7" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/com/example/android/codelab/animation/ui/home/Home.kt" />
+      <jump line="550" column="7" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/com/example/android/codelab/animation/ui/home/Home.kt" />
+      <jump line="458" column="18" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/com/example/android/codelab/animation/ui/home/Home.kt" />
+      <jump line="467" column="20" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/com/example/android/codelab/animation/ui/home/Home.kt" />
+      <jump line="473" column="36" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/com/example/android/codelab/animation/ui/home/Home.kt" />
+      <jump line="466" column="25" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/com/example/android/codelab/animation/ui/home/Home.kt" />
+      <jump line="578" column="7" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/com/example/android/codelab/animation/ui/home/Home.kt" />
+      <jump line="574" column="7" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/com/example/android/codelab/animation/ui/home/Home.kt" />
+      <jump line="465" column="27" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/com/example/android/codelab/animation/ui/home/Home.kt" />
+      <jump line="568" column="0" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/com/example/android/codelab/animation/ui/home/Home.kt" />
+      <jump line="487" column="8" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/com/example/android/codelab/animation/ui/home/Home.kt" />
+      <jump line="577" column="25" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/com/example/android/codelab/animation/ui/home/Home.kt" />
+      <jump line="697" column="35" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/com/example/android/codelab/animation/ui/home/Home.kt" />
+      <jump line="576" column="7" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/com/example/android/codelab/animation/ui/home/Home.kt" />
+      <jump line="652" column="7" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/com/example/android/codelab/animation/ui/home/Home.kt" />
+      <jump line="662" column="19" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/com/example/android/codelab/animation/ui/home/Home.kt" />
+      <jump line="669" column="27" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/com/example/android/codelab/animation/ui/home/Home.kt" />
+      <jump line="682" column="19" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/com/example/android/codelab/animation/ui/home/Home.kt" />
+      <jump line="685" column="19" filename="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab/start/src/main/java/com/example/android/codelab/animation/ui/home/Home.kt" />
+      <jump line="10" column="31" filename="$USER_HOME$/AndroidStudioProjects/MyApplicationEmpty/app/src/main/java/com/example/myapplicationempty/MainActivity.kt" />
+      <jump line="9" column="39" filename="$USER_HOME$/AndroidStudioProjects/MyApplicationEmpty/app/src/main/java/com/example/myapplicationempty/MainActivity.kt" />
+      <jump line="7" column="0" filename="$USER_HOME$/AndroidStudioProjects/MyApplicationEmpty/app/src/main/java/ThisMain.kt" />
+      <jump line="25" column="0" filename="$USER_HOME$/AndroidStudioProjects/MyApplicationEmpty/app/src/main/java/ThisMain.kt" />
+      <jump line="11" column="22" filename="$USER_HOME$/AndroidStudioProjects/MyApplicationEmpty/app/src/main/java/ThisMain.kt" />
+      <jump line="19" column="17" filename="$USER_HOME$/AndroidStudioProjects/MyApplicationEmpty/app/src/main/java/ThisMain.kt" />
+      <jump line="17" column="49" filename="$USER_HOME$/AndroidStudioProjects/MyApplicationEmpty/app/src/main/java/ThisMain.kt" />
+      <jump line="47" column="8" filename="$USER_HOME$/AndroidStudioProjects/MyApplicationEmpty/app/src/main/java/ThisMain.kt" />
+      <jump line="2" column="0" filename="$USER_HOME$/AndroidStudioProjects/MyApplicationEmpty/app/src/main/java/ThisMain.kt" />
+      <jump line="40" column="25" filename="$USER_HOME$/AndroidStudioProjects/MyApplicationEmpty/app/src/main/java/ThisMain.kt" />
+      <jump line="46" column="46" filename="$USER_HOME$/AndroidStudioProjects/MyApplicationLater/app/src/main/java/com/example/myapplicationlater/MainActivity.kt" />
+      <jump line="142" column="55" filename="$USER_HOME$/AndroidStudioProjects/MyApplicationLater/app/src/main/java/com/example/myapplicationlater/MainActivity.kt" />
+    </jumps>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="&quot;" type="4">
+        <text encoding="base64">dA==</text>
+      </register>
+      <register name="*" type="4">
+        <text encoding="base64">dA==</text>
+      </register>
+      <register name="-" type="4">
+        <text encoding="base64">dA==</text>
+      </register>
+      <register name="." type="4">
+        <text encoding="base64">Qm9pbGliaWxpU2VhcmhCb3hfcm9vdF9pZGVfcGFja2FnZV8uY29tLmV4YW1wbGUubXlhcHBsaWNhdGlvbmxhdGVyLkJpbGliaWxpU2VhcmhCb3ggKCk=</text>
+      </register>
+      <register name="/" type="4">
+        <text encoding="base64">VE9ETw==</text>
+      </register>
+      <register name="0" type="2">
+        <text encoding="base64">aW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5nZXRWYWx1ZQo=</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpdCgpCg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIEJhc2ljVGV4dEZpZWxkKAogICAgICAgIHZhbHVlID0gLAogICAgICAgIG9uVmFsdWVDaGFuZ2UgPQogICAgKQo=</text>
+      </register>
+      <register name="3" type="4">
+        <text encoding="base64">ewogICAgICAgICAgICAgICAgICAgIGFwcGVuZCgiVGV4dCIpCiAgICAgICAgICAgICAgICB9</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">aW1wb3J0IGRubC51dGlscy50ZXh0LnRhYmxlLlRleHRUYWJsZQo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICB2YWwgdGV4dFRhYmxlID0gVGV4dFRhYmxlKCkK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICB0ZXh0VGFibGUudG8K</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIHZhbCByZXN1bHQgPSBTdHJpbmdCdWZmZXIoKQo=</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICByZXN1bHQuCg==</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICByZXN1bHQK</text>
+      </register>
+      <register name=":" type="4">
+        <text encoding="base64">dw==</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-search encoding="base64">VE9ETw==</last-search>
+      <last-pattern encoding="base64">VE9ETw==</last-pattern>
+      <last-dir encoding="base64">MQ==</last-dir>
+      <show-last encoding="base64">dHJ1ZQ==</show-last>
+    </search>
+  </component>
+</application>

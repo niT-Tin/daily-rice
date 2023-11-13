@@ -1,0 +1,65 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/AndroidStudioProjects/lab1">
+          <value>
+            <RecentProjectMetaInfo frameTitle="lab1 – MainActivity.kt [lab1.app.main]" projectWorkspaceId="2FKbUeGGOEMb5rd6NMbGmehcRsl">
+              <option name="activationTimestamp" value="1664249096017" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="AI-221.6008.13.2211.9039819" />
+              <option name="buildTimestamp" value="1662602297524" />
+              <option name="eap" value="true" />
+              <frame x="968" y="28" width="940" height="1040" />
+              <option name="productionCode" value="AI" />
+              <option name="projectOpenTimestamp" value="1664243751627" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab">
+          <value>
+            <RecentProjectMetaInfo frameTitle="AnimationCodelab – Home.kt [AnimationCodelab.start.main]" projectWorkspaceId="2FKmLstkhslVT7f9Dm7zOzsY50f">
+              <option name="activationTimestamp" value="1664983638798" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="AI-221.6008.13.2211.9039819" />
+              <option name="buildTimestamp" value="1662602335810" />
+              <option name="eap" value="true" />
+              <frame x="3848" y="28" width="1900" height="1040" />
+              <option name="productionCode" value="AI" />
+              <option name="projectOpenTimestamp" value="1664809069623" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/MyApplicationEmpty">
+          <value>
+            <RecentProjectMetaInfo frameTitle="MyApplicationEmpty – ThisMain.kt [MyApplicationEmpty.app.main]" projectWorkspaceId="2Fd4RTpHCyclNGFNnNgUB0TQVGL">
+              <option name="activationTimestamp" value="1665319853456" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="AI-221.6008.13.2211.9039819" />
+              <option name="buildTimestamp" value="1662602310996" />
+              <option name="eap" value="true" />
+              <frame x="1940" y="28" width="1900" height="1040" />
+              <option name="productionCode" value="AI" />
+              <option name="projectOpenTimestamp" value="1664983639174" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/MyApplicationLater">
+          <value>
+            <RecentProjectMetaInfo frameTitle="MyApplicationLater – MainActivity.kt [MyApplicationLater.app.main]" opened="true" projectWorkspaceId="2FIJU8uvrKtRAue0SLhVVTgYnT1">
+              <option name="activationTimestamp" value="1665368619932" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="AI-221.6008.13.2211.9039819" />
+              <option name="buildTimestamp" value="1662602328270" />
+              <option name="eap" value="true" />
+              <frame x="1928" y="28" width="948" height="1040" />
+              <option name="productionCode" value="AI" />
+              <option name="projectOpenTimestamp" value="1665319853846" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/AndroidStudioProjects" />
+  </component>
+</application>

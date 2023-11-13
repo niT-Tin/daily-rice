@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# checkupdates 用于arch
+cupd=$(checkupdates | wc -l)
+# apt 用于debian
+# cupd=$(apt --list upgradable | wc -l)
+echo "$cupd updates "

@@ -1,0 +1,83 @@
+00:00:00.000742 main     VirtualBox XPCOM Server 6.1.38 r153438 linux.amd64 (Sep  1 2022 19:47:47) release log
+00:00:00.000743 main     Log opened 2022-10-05T10:40:09.146096000Z
+00:00:00.000744 main     Build Type: release
+00:00:00.000745 main     OS Product: Linux
+00:00:00.000745 main     OS Release: 5.19.12-zen1-1-zen
+00:00:00.000746 main     OS Version: #1 ZEN SMP PREEMPT_DYNAMIC Wed, 28 Sep 2022 13:21:23 +0000
+00:00:00.000759 main     DMI Product Name: HP Pavilion Gaming Laptop 15-dk1xxx
+00:00:00.000763 main     DMI Product Version: Type1ProductConfigId
+00:00:00.000766 main     Firmware type: UEFI
+00:00:00.001527 main     Secure Boot: Disabled
+00:00:00.001565 main     Host RAM: 31903MB (31.1GB) total, 27650MB (27.0GB) available
+00:00:00.001568 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.001568 main     Process ID: 10192
+00:00:00.001569 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.002898 main     IPC socket path: /tmp/.vbox-liuzehao-ipc/ipcd
+00:00:00.106224 nspr-2   VirtualBox: object creation starts
+00:00:00.106272 nspr-2   Home directory: '/home/liuzehao/.config/VirtualBox'
+00:00:00.106398 nspr-2   Loading settings file "/home/liuzehao/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.107144 nspr-2   USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0026)
+00:00:00.107178 nspr-2   Successfully initialised host USB using sysfs
+00:00:00.115062 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.115602 nspr-2   HostDnsMonitor: initializing
+00:00:00.115698 nspr-2   NAT: resolv.conf: nameserver 210.35.240.2
+00:00:00.115708 nspr-2   NAT: resolv.conf: nameserver 8.8.8.8
+00:00:00.115714 nspr-2   NAT: resolv.conf: nameserver 2001:250:6c00:240::2
+00:00:00.115717 nspr-2   NAT: resolv.conf: too many nameserver lines, ignoring 2001:250:6c00:2::20
+00:00:00.115722 nspr-2   HostDnsMonitor: updating information
+00:00:00.115731 nspr-2   HostDnsMonitor: old information
+00:00:00.115733 nspr-2     no server entries
+00:00:00.115735 nspr-2     no domain set
+00:00:00.115737 nspr-2     no search string entries
+00:00:00.115738 nspr-2   HostDnsMonitor: new information
+00:00:00.115740 nspr-2     server 1: 210.35.240.2
+00:00:00.115742 nspr-2     server 2: 8.8.8.8
+00:00:00.115744 nspr-2     server 3: 2001:250:6c00:240::2
+00:00:00.115746 nspr-2     no domain set
+00:00:00.115747 nspr-2     no search string entries
+00:00:00.121349 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.124105 nspr-2   Loading settings file "/home/liuzehao/VirtualBox VMs/win7/win7.vbox" with version "1.15-linux"
+00:00:00.125032 nspr-2   Loading settings file "/home/liuzehao/VirtualBox VMs/win10/win10.vbox" with version "1.17-linux"
+00:00:00.125938 nspr-2   Loading settings file "/home/liuzehao/VirtualBox VMs/arch-garuda-i3/arch-garuda-i3.vbox" with version "1.16-linux"
+00:00:00.126521 nspr-2   OCI: Local config file '/home/liuzehao/.config/VirtualBox/oci_config' does not exist
+00:00:00.126533 nspr-2   OCI: Original config file '/home/liuzehao/.oci/config' does not exist
+00:00:00.126535 nspr-2   OCI: Reading profiles finished with status NS_OK
+00:00:00.126539 nspr-2   ExtPack: Created cloud provider 'OCI' (hrc=NS_OK)
+00:00:00.126547 nspr-2   VirtualBox: object created
+00:00:06.074823 nspr-2   Launched VM: 268441664 pid: 10231 (0x27f7) frontend: GUI/Qt name: win10
+00:00:07.022308 nspr-3   Load [/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxHostWebcam.so] vrc=VINF_SUCCESS
+00:00:07.231333 nspr-6   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:07.246899 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:11:16.604311 nspr-6   Saving settings file "/home/liuzehao/VirtualBox VMs/win10/win10.vbox" with version "1.17-linux"
+00:11:34.153907 nspr-6   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:11:34.162020 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:12:36.918999 USBPROXY USBProxyBackendLinux: Device 03f0:3f40 (sysfs:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3//device:/dev/vboxusb/001/007) isn't accessible. giving udev a few seconds to fix this...
+00:13:20.607843 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:13:20.616275 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:15:48.765201 nspr-5   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:15:48.773616 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:17:44.119344 nspr-2   Launched VM: 268451376 pid: 11899 (0x2e7b) frontend: GUI/Qt name: arch-garuda-i3
+00:17:45.016025 nspr-3   Load [/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxHostWebcam.so] vrc=VINF_SUCCESS
+00:17:45.237363 nspr-2   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:17:45.253099 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:18:08.695120 nspr-7   Saving settings file "/home/liuzehao/VirtualBox VMs/arch-garuda-i3/arch-garuda-i3.vbox" with version "1.16-linux"
+00:18:08.705802 nspr-4   Saving settings file "/home/liuzehao/VirtualBox VMs/arch-garuda-i3/arch-garuda-i3.vbox" with version "1.16-linux"
+00:18:08.722316 nspr-5   Saving settings file "/home/liuzehao/VirtualBox VMs/arch-garuda-i3/arch-garuda-i3.vbox" with version "1.16-linux"
+00:18:53.715656 createBase Saving settings file "/home/liuzehao/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:18:54.241733 nspr-3   Saving settings file "/home/liuzehao/VirtualBox VMs/popos/popos.vbox" with version "1.16-linux"
+00:18:54.245471 nspr-8   Saving settings file "/home/liuzehao/VirtualBox VMs/popos/popos.vbox" with version "1.16-linux"
+00:18:54.247912 nspr-8   Saving settings file "/home/liuzehao/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:18:54.251333 nspr-5   Saving settings file "/home/liuzehao/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:18:54.254464 nspr-5   Saving settings file "/home/liuzehao/VirtualBox VMs/popos/popos.vbox" with version "1.16-linux"
+00:18:56.819292 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:18:56.829025 nspr-6   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:19:02.856796 main     VirtualBox: object deletion starts
+00:19:02.856829 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/liuzehao/VirtualBox VMs/win7/win7.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:19:02.856925 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/liuzehao/VirtualBox VMs/win10/win10.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:19:02.856988 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/liuzehao/VirtualBox VMs/arch-garuda-i3/arch-garuda-i3.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:19:02.857059 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/liuzehao/VirtualBox VMs/popos/popos.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:19:02.857262 main     HostDnsMonitor: shutting down ...
+00:19:02.861474 main     HostDnsMonitor: shut down
+00:19:03.000169 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:19:07.865634 main     {00007f7a14018910} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:19:07.867186 main     VirtualBox: object deleted

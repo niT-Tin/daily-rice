@@ -1,0 +1,105 @@
+<application>
+  <component name="DynamicPluginEnabler">
+    <trackers>
+      <map>
+        <entry key="2FIJU8uvrKtRAue0SLhVVTgYnT1">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="2FKbUeGGOEMb5rd6NMbGmehcRsl">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="2FKmLstkhslVT7f9Dm7zOzsY50f">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="2Fd4RTpHCyclNGFNnNgUB0TQVGL">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+      </map>
+    </trackers>
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "ATTACHED_TOOL_WINDOW.Compose Preview.TOOL_ORDER": "",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.Compose Preview.TOOL_ORDER": "",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.FULL.AUTO_HIDE": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.FULL.LEFT": "true",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.FULL.MINIMIZED": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.FULL.SPLIT": "true",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.FULL.AUTO_HIDE": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.FULL.LEFT": "true",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.FULL.MINIMIZED": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.FULL.SPLIT": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.FULL.AUTO_HIDE": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.FULL.LEFT": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.FULL.MINIMIZED": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.FULL.SPLIT": "false",
+    "ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.TOOL_ORDER": "PALETTE,PROPERTIES,COMPONENT_TREE",
+    "ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.FULL.LEFT": "true",
+    "ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.FULL.SPLIT": "true",
+    "ATTACHED_TOOL_WINDOW.NELE_EDITOR.PALETTE.FULL.LEFT": "true",
+    "ATTACHED_TOOL_WINDOW.NELE_EDITOR.TOOL_ORDER": "PALETTE,PROPERTIES,COMPONENT_TREE",
+    "AndroidInitConfigurator.V1": "true",
+    "AndroidInitConfigurator.V3": "true",
+    "AndroidInitConfigurator.V5": "true",
+    "MarketplacePluginsSearchHistory": "waka\none dark\none da\no\natom",
+    "NextRunPlatformUpdateBuild": "AI-221.6008.13.2211.9113387/Electric Eel | 2022.1.1 Beta 2",
+    "NextRunPlatformUpdateVersion": "Electric Eel | 2022.1.1 Beta 2",
+    "NonModalCommitCustomization.IsApplied": "true",
+    "PROJECT_STRUCTURE_NOTIFICATION_LAST_HIDDEN_TIMESTAMP": "1664207694922",
+    "RunOnceActivity.cidr.test.framework.showIndexingAsTask": "true",
+    "RunOnceActivity.se.text.search": "true",
+    "SAVED_ANDROID_NPW_ASKED_LANGUAGE": "true",
+    "SAVED_ANDROID_NPW_LANGUAGE": "Kotlin",
+    "SAVED_ANDROID_PACKAGE": "com.example",
+    "SettingsSearchHistory": "theme\nfont\nGeneral",
+    "Source Code Editor With PreviewLayout": "Editor only",
+    "TextEditorWithPreview.SplitterProportionKey": "0.7316017",
+    "android.sdk.path": "/home/liuzehao/Android/Sdk",
+    "appcds.runOnSecondStart": "AI-221.6008.13.2211.9039819-96e9fb8500195b246a45151748fbc7a27fb97dd74c08097798bdbc57929ff6bc",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "bundled.plugins.list.saved.version": "AI-221.6008.13.2211.9039819",
+    "decompiler.legal.notice.accepted": "true",
+    "file.gist.reindex.count": "150",
+    "fileTypeChangedCounter": "1",
+    "got.it.tooltip.reader.mode.got.it": "1",
+    "gotit.previous.run": "AI-221.6008.13.2211.9039819",
+    "ideavim.statistics.timestamp": "1665319853998",
+    "input.method.disabler.muted": "true",
+    "installed.kotlin.plugin.version": "221-1.7.10-release-for-android-studio-AS5591.52",
+    "kotlin.lastUpdateCheck": "1665324412625",
+    "newly.installed.api.level": "32",
+    "registry.to.advanced.settings.migration.build": "AI-221.6008.13.2211.9039819",
+    "tasks.pass.word.conversion.enforced": "true"
+  },
+  "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/liuzehao/AndroidStudioProjects/android-compose-codelabs/AnimationCodelab"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.jetbrains.cidr.lang.OCHeaderFileTypeDetector",
+      "com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector",
+      "com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ],
+    "kotlin-gradle-user-dirs": [
+      "/home/liuzehao/.gradle"
+    ]
+  }
+}]]></component>
+  <component name="TerminalCommandHistoryManager">
+    <command-history-files>
+      <command-history-file filename="MyApplicationEmpty-history" project-path="$USER_HOME$/AndroidStudioProjects/MyApplicationEmpty" last-access-time="1665120767492" />
+    </command-history-files>
+  </component>
+</application>

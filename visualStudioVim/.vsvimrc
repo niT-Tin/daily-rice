@@ -1,0 +1,16 @@
+set nu
+set relativenumber
+syntax on
+inoremap jk <Esc>
+" 设这leader
+let mapleader = " "
+" 运行debug
+nnoremap <leader>cmd :vsc Debug.Start<cr>
+" 打开文件夹
+" nnoremap <leader>ex :vsc File.OpenContainingFolder<cr>
+" 注释
+:vnoremap gcc :s/^/\/\/<cr>         
+:nnoremap gcc :s/^/\/\/<cr> 
+" 反注释        
+:vnoremap  gcu :s/\/\//<cr>         
+:nnoremap gcu :s/\/\//<cr>

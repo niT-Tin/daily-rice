@@ -1,0 +1,65 @@
+-- 可以去codeberg仓库直接看配置方法
+-- https://codeberg.org/xmobar/xmobar/src/branch/master/doc/plugins.org
+-- Color scheme: Doom One
+-- Dependencies: 
+   -- otf-font-awesome 
+   -- ttf-mononoki 
+   -- ttf-ubuntu-font-family
+   -- htop
+   -- emacs
+   -- pacman (Arch Linux)
+
+Config { font            = "xft:Ubuntu:weight=bold:pixelsize=11:antialias=true:hinting=true"
+       , additionalFonts = [ "xft:Mononoki Nerd Font:pixelsize=11:antialias=true:hinting=true"
+                            -- 注意此处不要使用Awesome Free的字体, 有些图标无法显示,至少我的情况是这样, 🤣
+                           , "xft:FontAwesome:pixelsize=12"
+                           ]
+       , bgColor      = "#282c34"
+       , fgColor      = "#ff6c6b"
+       -- 位置变量 TopSize 和 BottomSize 有3个参数:
+       --   第一个参数 (L/R/C)(改变这个貌似对我没啥影响) 指代左边(Left), 右边(Right), 中间(Center).
+       --   第二个参数 整数，代表宽度百分比, 比如100表示100%.
+       --   第三个参数 整数，代表最小的高度，单位是像素,比如30,代表最小高度是30个像素
+       , position       = TopSize L 100 30
+       , lowerOnStart = True
+       , hideOnStart  = False
+       , allDesktops  = True
+       , persistent   = True
+       -- 图标路径，反正我没用
+--       , iconRoot     = ".xmonad/xpm/"  -- default: "."
+       , commands = [
+                        -- 输出企鹅图标
+                      Run Com "echo" ["<fn=2>\xf17c</fn>"] "penguin" 3600
+                        -- 获取内核版本
+                    , Run Com "uname" ["-r"] "kernel" 36000
+                        -- 获取CPU使用率
+                    , Run Cpu ["-t", "<fn=2>\xf108</fn>  cpu: (<total>%)","-H","50","--high","red"] 20
+                        -- 内存使用率
+                    , Run Memory ["-t", "mem: <used>M (<usedratio>%)"] 20
+                        -- 内存图标
+                    , Run Com "echo" ["<fn=2>\xf233</fn>"] "memry" 20
+                        -- 硬盘空闲空间(我自己设置为/home目录)
+                    , Run DiskU [("/home", "<fn=2>\xf0c7</fn>  hdd: <free> free")] [] 60
+                        -- 向上箭头
+                    , Run Com "echo" ["<fn=2>\xf0aa</fn>"] "uparrow" 3600
+                        -- 距离登陆时间
+                    , Run Uptime ["-t", "uptime: <days>d <hours>h"] 360
+                        -- 闹钟图标
+                    , Run Com "echo" ["<fn=2>\xf0f3</fn>"] "bell" 3600
+                        -- 检查是要更新的包的个数
+                    , Run Com "/home/liuzehao/.config/xmobar/pacupdate" [] "pacupdate" 36000
+                        -- 电池图标
+                    , Run Com "echo" ["<fn=2>\xf242</fn>"] "baticon" 3600
+                        -- 网络上下行
+                    , Run Network "wlan0" ["-t", "<fn=2>\xf0ab</fn> <rx>kb <fn=2>\xf0aa</fn> <tx>kb"] 20
+                        -- 电池电量剩余输出
+                    , Run BatteryP ["BAT1"] ["-t", "<acstatus><watts> (<left>%)"] 360
+                        -- 时间和日期
+                    , Run Date "<fn=2>\xf017</fn>  %b %d %Y - (%H:%M) " "date" 50
+                    , Run UnsafeStdinReader
+                    ]
+       , sepChar = "%"
+       , alignSep = "}{"
+       , template = "<icon=/home/liuzehao/.config/xmobar/images/linux/tux_fit.xpm/>}{ <box type=Bottom width=2 mb=2 color=#51afef><fc=#51afef><action=`alacritty -e neofetch --loop`>%penguin%  %kernel%</action></fc></box>    <box type=Bottom width=2 mb=2 color=#ecbe7b><fc=#ecbe7b><action=`alacritty -e htop`>%cpu%</action></fc></box>    <box type=Bottom width=2 mb=2 color=#ff6c6b><fc=#ff6c6b><action=`alacritty -e htop`>%memry%  %memory%</action></fc></box>    <box type=Bottom width=2 mb=2 color=#4bd159><fc=#4bd159> %wlan0% </fc></box>    <box type=Bottom width=2 mb=2 color=#a9a1e1><fc=#a9a1e1>%disku%</fc></box>    <box type=Bottom width=2 mb=2 color=#98be65><fc=#98be65>%uparrow%  %uptime%</fc></box>    <box type=Bottom width=2 mb=2 color=#c678dd><fc=#c678dd>%bell%  <action=`alacritty -e sudo pacman -Syu`>%pacupdate%</action></fc></box>   <box type=Bottom width=2 mb=2 color=#da8548><fc=#da8548>%baticon%  %battery%</fc></box>    <box type=Bottom width=2 mb=2 color=#46d9ff><fc=#46d9ff><action=`emacs`>%date%</action></fc></box>"
+       }
+

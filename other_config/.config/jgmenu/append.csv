@@ -1,0 +1,4 @@
+^sep()
+Restart,reboot
+Log Out,qtile cmd-obj -o cmd -f shutdown
+Power Off,pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY HOME=$HOME systemctl poweroff

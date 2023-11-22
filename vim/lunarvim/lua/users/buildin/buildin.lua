@@ -9,6 +9,7 @@ local lvim_buildins = {
   'users.buildin.gitsign',
   'users.buildin.fold',
   'users.buildin.indent',
+  'users.buildin.lsp',
 }
 
 for _, v in ipairs(lvim_buildins) do

@@ -5,3 +5,4 @@ lvim.format_on_save.enabled = false
 vim.opt.termguicolors = true
 vim.opt.relativenumber = true
 vim.opt.wrap = true
+

@@ -289,6 +289,38 @@ Port 默认不写是22,当然也可以显式地设置成别的端口，如果服
 
 配置之后类似可以将 `git clone git@github.com:niT-Tin/asdf.git` 替换为 `git clone git@nittin:niT-Tin/asdf.git`
 
+### 配置反向代理
+
+这里将隔离机器作为中间跳板，连接实际开发机器与客户机器，因为这里我只是单纯拿两个本地机器测试，所以地址都为内网ip,实际上可以develop只能，连接isolate,而isolate无法连接develop,client通过连接isolate与develop通信，进而隐藏develop
+
+```text
+                                                                                                ┌───────────┐  
+                                                                                                │           │  
+                                                                                                │   client  │  
+                                                                                                │           │  
+                                                                                                └─────┬─────┘  
+                                                                                                      │        
+                                                                2. ssh -p 7777 user@192.168.217.102   │
+                                                                  (客户端运行指定对应端口)            │        
+                                                                                                      │        
+                                                                                                      │        
+                                                                                                      │        
+                                                                                                      │        
+                                                                                                      │        
+                                                                                                      │        
+                                                                                                      │        
+                                                                                                      │
+                (develop 上运行如下命令，将isolate的7777端口流量代理到本机22端口)                     ▼        
+   ┌───────┐ 1. ssh -R 192.168.217.102:7777:localhost:22 user@192.168.217.102                      ┌─────────┐ 
+   │       ├──────────────────────────────────────────────────────────────────────────────────────►│         │ 
+   │develop│                                                                                       │ isolate │ 
+   │       │◄──────────────────────────────────────────────────────────────────────────────────────┤         │ 
+   └───────┘                      3. to develop                                                    └─────────┘ 
+    192.168.217.101                                                                                  192.168.217.102
+```
+
+这里注意配置isolate的sshd_config文件，需要将`GatewayPorts`项设置为yes
+
 ## 字体配置
 
 具体查看字体文件夹内的配置以及位置, 还有 st 的 `config.h` 文件内的字体对应安装即可
@@ -893,3 +925,28 @@ eg:
 ```
 
 这里pkg-config命令要放在反引号里面，作为子命令运行。
+
+## bash, zsh在更新系统之后，命令前添加`sudo`前缀`<tab>`无法补全的问题
+
+对于bash的话，直接重新安装`bash-completion`就行(目前没搞清楚为什么，也不是很想搞清楚)
+
+```bash
+sudo pacman -S bash-completion
+```
+
+然而对于zsh，它的相关文件都在`/usr/share/zsh/`下面，包括一些命令的补全文件，目前还没结局，也没继续研究，后面解决了再来记录
+
+## bluetooth
+
+先看[archwiki](https://wiki.archlinux.org/title/Bluetooth?ref=itsfoss.com)。我已经安装了bluez相关的东西。
+
+具体使用
+
+1. (optional) Select a default controller with `select MAC_address`.
+2. (optional) Enter `power on` to turn the power to the controller on if the device is set to off. It is on by default; see [Default adapter power state](https://wiki.archlinux.org/title/Bluetooth?ref=itsfoss.com#Default_adapter_power_state).
+3. Enter `devices` to get the MAC address of the device with which to pair.
+4. Enter device discovery mode with `scan on` command if device is not yet on the list.
+5. Turn the agent on with `agent on` or choose a specific agent: if you press tab twice after `agent` you should see a list of available agents. A bluetooth agent is what manages the Bluetooth 'pairing code'. It can either respond to a 'pairing code' coming in, or can send one out. The `default-agent` should be appropriate in most cases.[1](https://askubuntu.com/questions/763939/bluetoothctl-what-is-a-bluetooth-agent)
+6. Enter `pair MAC_address` to do the pairing (tab completion works).
+7. If using a device without a PIN, one may need to manually trust the device before it can reconnect successfully. Enter `trust MAC_address` to do so.
+8. Enter `connect MAC_address` to establish a connection.

@@ -1,5 +1,33 @@
 # 一些关于安装配置 Linux 命令行的问题记录
 
+* [启动配置问题](#启动配置问题)
+    * [重构启动文件](#重构启动文件)
+* [命令行问题](#命令行问题)
+    * [可能要安装的软件(暂且记得这些)](#可能要安装的软件暂且记得这些)
+    * [安装问题](#安装问题)
+* [远程服务器ssh配置](#远程服务器ssh配置)
+    * [配置反向代理](#配置反向代理)
+* [字体配置](#字体配置)
+* [显卡配置](#显卡配置)
+* [下载软件本地安装验证(以emacs为例)](#下载软件本地安装验证以emacs为例)
+* [Linux虚拟机与宿主机共享目录配置](#linux虚拟机与宿主机共享目录配置)
+* [对于neovide与lunarvim的结合操作](#对于neovide与lunarvim的结合操作)
+* [安装字体](#安装字体)
+* [获得字体相关图标](#获得字体相关图标)
+* [jonaburg/picom](#jonaburgpicom)
+* [glibc](#glibc)
+* [终端颜色使用](#终端颜色使用)
+* [tmux 日常工作流快捷键](#tmux-日常工作流快捷键)
+* [GRUB hidden](#grub-hidden)
+* [ArchLinux，使用pacman包管理工具忽略某些包的安装或升级](#archlinux使用pacman包管理工具忽略某些包的安装或升级)
+* [安装TensorRT遇到的问题](#安装tensorrt遇到的问题)
+* [Linux时间同步笔记](#linux时间同步笔记)
+* [使用命令行来使用不同tty](#使用命令行来使用不同tty)
+* [更新内核致使nvidia显卡无法使用的问题](#更新内核致使nvidia显卡无法使用的问题)
+* [vmware workstation 模块安装问题](#vmware-workstation-模块安装问题)
+* [bash, zsh在更新系统之后，命令前添加`sudo`前缀`<tab>`无法补全的问题](#bash-zsh在更新系统之后命令前添加sudo前缀tab无法补全的问题)
+* [bluetooth](#bluetooth)
+
 > 防止我哪天失忆，因此写下这个提醒文件 —— lazyhippo
 
 哦，对了这个文档记录有些是根据 Ubuntu20.04 来记录的(因为开始记录的时候在使用 Ubuntu)，但是目前一直在使用 EndeaourOS(基于 arch 的一个 Linux 发行版), 所以失忆之后的话还想用 Linux 就暂时先用 Ubuntu,也可以自己慢慢尝试在 arch 上配置相关软件。
@@ -54,6 +82,7 @@
 
 | 软件名称                                                      | 描述                                       |
 | ------------------------------------------------------------- | ------------------------------------------ |
+| v2ray2                                                        | 配置系统代理                               |
 | zsh                                                           | shell                                      |
 | fish                                                          | shell                                      |
 | oh my zsh                                                     | 美化 zsh                                   |
@@ -114,6 +143,22 @@ cargo build --release
 > 因为之前系统(Garuda Linux)库freetype的问题，导致kitty不能正常显示emoji表情包，现在已经换掉，改成endeaourOS。该问题已经解决，所以现在还是在使用kitty，但是y1s1，alacritty是真的快。
 
 ### 安装问题
+
+- v2raya 安装命令
+
+  ```bash
+  curl -Ls https://mirrors.v2raya.org/go.sh | sudo bash
+  sudo systemctl disable v2ray --now
+  wget -qO - https://apt.v2raya.mzz.pub/key/public-key.asc | sudo apt-key add -
+  echo "deb https://apt.v2raya.mzz.pub/ v2raya main" | sudo tee /etc/apt/sources.list.d/v2raya.list
+  sudo apt update
+  sudo apt install v2raya
+  sudo systemctl start v2raya.service
+  sudo systemctl enable v2raya.service
+  ```
+
+  使用浏览器访问图形 UI http://localhost:2017
+  之后创建帐号，导入订阅，在设置里面找到透明代理设置，或者可能是第一个选项，选择代理所有流量即可，之后选择节点，启动就行
 
 - 在安装 Anaconda 的时候,目前来说遇见的问题是从官网下载的文件，在添加运行权限之后，会在最后
   报错 一个显示 Syntax error, 这个时候应该使用 bash Anaconda..来运行脚本
@@ -445,6 +490,10 @@ fc-cache
 ```
 
 我咋还记得我以前不是这么装字体的，🤔 我给忘记了，🤗暂时记录下我记得的。
+
+vscode还需要安装下面这个字体来让vscode的内部终端不至于字符乱码
+
+![](./images/vscode-code.png)
 
 ## 获得字体相关图标
 

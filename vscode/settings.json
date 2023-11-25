@@ -108,9 +108,10 @@
   "explorer.compactFolders": false,
   "github.copilot.enable": {
     "*": false,
-    "yaml": false,
     "plaintext": false,
-    "markdown": false
+    "markdown": false,
+    "scminput": false,
+    "yaml": false
   },
   "editor.formatOnSave": true,
   "editor.fontFamily": "JetBrains Mono",
@@ -124,7 +125,6 @@
   "dart.flutterRunAdditionalArgs": [
     "--no-sound-null-safety"
   ],
-  "workbench.colorTheme": "Ayu Mirage",
   "terminal.integrated.inheritEnv": false,
   "haskell.manageHLS": "GHCup",
   "go.goroot": "/home/liuzehao/applications/go",
@@ -148,4 +148,58 @@
   },
   "git.ignoreLegacyWarning": true,
   "rust-analyzer.trace.extension": true,
+  "tabnine.experimentalAutoImports": true,
+  "[go]": {
+    "editor.inlayHints.padding": false,
+    "editor.inlayHints.enabled": "on",
+  },
+  "go.inlayHints.parameterNames": true,
+  "go.inlayHints.rangeVariableTypes": true,
+  "go.inlayHints.assignVariableTypes": true,
+  "go.inlayHints.compositeLiteralFields": true,
+  "go.inlayHints.compositeLiteralTypes": true,
+  "go.inlayHints.constantValues": true,
+  "go.inlayHints.functionTypeParameters": true,
+  "python.analysis.inlayHints.callArgumentNames": true,
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "python.analysis.inlayHints.pytestParameters": true,
+  "python.analysis.inlayHints.variableTypes": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "entity.name.type.class", //class names
+          "keyword", //import, export, return…
+          "constant", //String, Number, Boolean…, this, super
+          "storage.modifier", //static keyword
+          "storage.type.class.js", //class keyword
+          "entity.name.method.js",
+          "entity.name.class.js",
+          "entity.name.tag.doctype",
+          "entity.other.attribute-name",
+          "entity.other.attribute-name.tag.jade",
+          "entity.other.attribute-name.tag.pug",
+          "entity.name.function",
+          "entity.name.function.member",
+          "string",
+          "other"
+        ],
+        "settings": {
+          "fontStyle": "italic bold"
+        }
+      }
+    ]
+  },
+  "editor.foldingImportsByDefault": true,
+  "C_Cpp.inlayHints.parameterNames.enabled": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "explorer.fileNesting.enabled": true,
+  "Codegeex.Privacy": true,
+  "Codegeex.Explanation.LanguagePreference": "中文",
+  "Codegeex.Comment.LanguagePreference": "中文",
+  "workbench.colorTheme": "Everforest Dark",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "go.toolsManagement.autoUpdate": true,
+  "Codegeex.EnableExtension": false
 }

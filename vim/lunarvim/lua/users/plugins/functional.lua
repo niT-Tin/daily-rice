@@ -12,7 +12,7 @@ local functional = {
     config = function()
       local scroll_opts = require('users.opts.scroll.opts')
       require('neoscroll').setup(scroll_opts)
-    end
+    end,
   },
   -- 光标到上一次离开时的位置
   {
@@ -31,6 +31,7 @@ local functional = {
   -- 于预览本机 LSP 的 goto 定义、类型定义、实现和浮动窗口中的引用调用。
   {
     "rmagatti/goto-preview",
+    lazy = true,
     config = function()
       require('goto-preview').setup {
         width = 120,              -- Width of the floating window
@@ -51,6 +52,7 @@ local functional = {
   {
     'glepnir/template.nvim',
     cmd = { 'Template', 'TemProject' },
+    lazy = true,
     config = function()
       require('template').setup({
         -- config in there
@@ -85,14 +87,16 @@ local functional = {
   },
   --  如果出现Python Error: unknown function _wilder_python_search
   --  使用 :UpdateRemotePlugins
-  {
-    'gelguy/wilder.nvim',
-    config = function()
-      require('users.opts.wilder.opt').config()
-    end,
-  },
+  --  太卡了，不用了，真的是
+  -- {
+  --   'gelguy/wilder.nvim',
+  --   config = function()
+  --     require('users.opts.wilder.opt').config()
+  --   end,
+  -- },
   {
     "folke/zen-mode.nvim",
+    lazy = true,
     config = function()
       require("zen-mode").setup {
         -- your configuration comes here
@@ -104,29 +108,39 @@ local functional = {
   { 'haringsrob/nvim_context_vt' },
   {
     "simrat39/symbols-outline.nvim",
+    -- lazy = true,
     config = function()
       require('symbols-outline').setup()
     end
   },
   { "github/copilot.vim" },
   -- 自己写的用于创建springboot项目的插件
-  {
-    'niT-Tin/springboot-start.nvim',
-    dependencies = {
-      'nvim-lua/plenary.nvim',
-      'nvim-telescope/telescope.nvim',
-      'MunifTanjim/nui.nvim',
-    },
-    config = function()
-      require('springboot-start').setup({
-        input = {
-          prompt = "🔍 "
-        }
-      })
-    end
-  },
+  -- {
+  --   'niT-Tin/springboot-start.nvim',
+  --   dependencies = {
+  --     'nvim-lua/plenary.nvim',
+  --     'nvim-telescope/telescope.nvim',
+  --     'MunifTanjim/nui.nvim',
+  --   },
+  --   config = function()
+  --     require('springboot-start').setup({
+  --       input = {
+  --         prompt = "🔍 "
+  --       }
+  --     })
+  --   end
+  -- },
   -- 画ascii图(diagram)
-  {'jbyuki/venn.nvim'},
+  {
+    'jbyuki/venn.nvim',
+    -- lazy = true,
+  },
+  -- {
+  --   "dnlhc/glance.nvim",
+  -- config = function()
+  --   require('glance').setup()
+  -- end,
+  -- },
 }
 
 return functional

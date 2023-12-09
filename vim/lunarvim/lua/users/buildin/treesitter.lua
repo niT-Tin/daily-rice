@@ -8,17 +8,17 @@ lvim.builtin.treesitter.ignore_install = {
 }
 lvim.builtin.treesitter.ensure_installed = {
   -- "bash", 有显示问题
-  "c",
-  "javascript",
-  "json",
-  "lua",
-  "typescript",
-  "tsx",
-  "css",
-  "rust",
-  "java",
-  "yaml",
-  "org",
+--  "c",
+--  "javascript",
+--  "json",
+--  "lua",
+--  "typescript",
+--  "tsx",
+--  "css",
+--  "rust",
+--  "java",
+--  "yaml",
+--  "org",
 }
 
 lvim.builtin.treesitter.rainbow.enable = true

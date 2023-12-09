@@ -1,6 +1,7 @@
 local cursors = {
   { 'junegunn/vim-easy-align' },
-  { "Chiel92/vim-autoformat" },
+  -- 我自己来format,真的是
+  -- { "Chiel92/vim-autoformat" },
   -- { "easymotion/vim-easymotion" },
   { "tpope/vim-surround" },
   { "wakatime/vim-wakatime" },
@@ -8,6 +9,7 @@ local cursors = {
   {
     -- 和easymotion一样
     "phaazon/hop.nvim",
+    lazy = true,
     event = "BufRead",
     config = function()
       require("hop").setup()

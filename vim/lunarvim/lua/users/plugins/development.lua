@@ -1,5 +1,6 @@
 local development = {
-  { 'MunifTanjim/nui.nvim' },
+  -- 目前没啥用
+  -- { 'MunifTanjim/nui.nvim' },
 }
 
 return development

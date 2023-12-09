@@ -2,7 +2,7 @@ local basic = lvim.builtin.indentlines.options
 
 basic['use_treesitter'] = true;
 basic['show_current_context'] = true;
-basic['show_current_context_start'] = false;
+basic['show_current_context_start'] = true;
 basic['context_highlight_list'] = {
   "rainbowcol1",
   "rainbowcol2",

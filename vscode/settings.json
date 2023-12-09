@@ -141,7 +141,7 @@
   "vscode_custom_css.imports": [
     "file:///home/liuzehao/.config/Code/User/cuscss/custom.css"
   ],
-  "editor.cursorBlinking": "smooth",
+  "editor.cursorBlinking": "expand",
   "dart.flutterSdkPath": "/home/liuzehao/applications/flutter",
   "[python]": {
     "editor.formatOnType": true
@@ -198,8 +198,9 @@
   "Codegeex.Privacy": true,
   "Codegeex.Explanation.LanguagePreference": "中文",
   "Codegeex.Comment.LanguagePreference": "中文",
-  "workbench.colorTheme": "Everforest Dark",
+  "workbench.colorTheme": "Ayu Dark Bordered",
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "go.toolsManagement.autoUpdate": true,
-  "Codegeex.EnableExtension": false
+  "Codegeex.EnableExtension": false,
+  "editor.cursorSmoothCaretAnimation": "on"
 }

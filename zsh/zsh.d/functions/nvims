@@ -1,0 +1,25 @@
+# alias nvim-lunar="NVIM_APPNAME=lvim nvim"
+# alias nvim-kick="NVIM_APPNAME=kickstart nvim"
+# alias nvim-chad="NVIM_APPNAME=NvChad nvim"
+# alias nvim-astro="NVIM_APPNAME=AstroNvim nvim"
+
+function nvims() {
+  items=("default" "kickstart" "LunarVim" "LazyVim" "NvChad" "AstroNvim")
+  config=$(printf "%s\n" "${items[@]}" | fzf --prompt=" Neovim Config  " --height=~50% --layout=reverse --border --exit-0)
+  if [[ -z $config ]]; then
+    echo "Nothing selected"
+    return 0
+  elif [[ $config == "default" || $config == "LunarVim" ]]; then
+    config="lvim"
+    export LUNARVIM_RUNTIME_DIR="${LUNARVIM_RUNTIME_DIR:-"/home/liuzehao/.local/share/lunarvim"}"
+    export LUNARVIM_CONFIG_DIR="${LUNARVIM_CONFIG_DIR:-"/home/liuzehao/.config/lvim"}"
+    export LUNARVIM_CACHE_DIR="${LUNARVIM_CACHE_DIR:-"/home/liuzehao/.cache/lvim"}"
+    
+    export LUNARVIM_BASE_DIR="${LUNARVIM_BASE_DIR:-"/home/liuzehao/.local/share/lunarvim/lvim"}"
+    NVIM_APPNAME=$config nvim -u "$LUNARVIM_BASE_DIR/init.lua" $@
+  else
+    NVIM_APPNAME=$config nvim $@
+  fi
+}
+
+# bindkey -s ^a "nvims\n"

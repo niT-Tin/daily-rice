@@ -1,0 +1,5 @@
+{
+  "clangd.arguments": [
+    "--offset-encoding=UTF-16"
+  ]
+}

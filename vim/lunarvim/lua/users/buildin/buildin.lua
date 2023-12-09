@@ -10,6 +10,7 @@ local lvim_buildins = {
   'users.buildin.fold',
   'users.buildin.indent',
   'users.buildin.lsp',
+  'users.buildin.icons',
 }
 
 for _, v in ipairs(lvim_buildins) do

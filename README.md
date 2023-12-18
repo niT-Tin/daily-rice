@@ -43,6 +43,8 @@ https://fontawesome.com/v4/cheatsheet/
 
 **_Renew Tmux And Prompt_**
 
+![](./images/nowaf.png)
+
 ### 无聊的事(这个事情肯定不是最近的，但是我也忘记这是啥时候了，懒得查看了😁)
 
 最近在一块多于的硬盘上安装了 gentoo,不得不说，编译 chromium 是真的花时间...

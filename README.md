@@ -33,12 +33,15 @@ https://fontawesome.com/v4/cheatsheet/
 #### 重新折腾一下
 1. 顶部bar改用polybar(之前一直是xmobar)
 2. 使用有动画效果的picom的folk版本(也添加了blur效果，具体见第四张图，终端背景的模糊效果)
+3. 重新配置tmux以及starship
 
 **_Daily Three_**
 ![sys_daily_three](./images/daily3.png)
 
 **_Daily Four_**
 ![sys_daily_three](./images/daily4.png)
+
+**_Renew Tmux And Prompt_**
 
 ### 无聊的事(这个事情肯定不是最近的，但是我也忘记这是啥时候了，懒得查看了😁)
 

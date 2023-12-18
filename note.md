@@ -661,6 +661,11 @@ prefix = ctrl + a
 | `<prefix>` & | 关闭当前窗口                                                          |
 | `<prefix>` [ | 进入滚动模式，之后可以使用vim like的翻页或者移动方式比如Ctrl+f, j,k等 |
 | `<prefix>` : | 进入命令模式，可以输入tmux命令回车执行eg：kill-server直接退出 😅      |
+| `<prefix>` F | 打开fzf面板                                                           |
+| `<prefix>` I | 重新加载配置                                                          |
+| `<prefix>` > | 将当前pane交换到右边                                                  |
+| `<prefix>` < | 将当前pane交换到左边                                                  |
+| `<prefix>` + | 将当前pane最大化                                                      |
 
 还有很多，具体就man一下就知道了。
 在选择的时候，可以在按下 `l` 展开可以选择的窗口

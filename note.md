@@ -80,47 +80,48 @@
 
 ### 可能要安装的软件(暂且记得这些)
 
-| 软件名称                                                      | 描述                                       |
-| ------------------------------------------------------------- | ------------------------------------------ |
-| v2ray2                                                        | 配置系统代理                               |
-| zsh                                                           | shell                                      |
-| fish                                                          | shell                                      |
-| oh my zsh                                                     | 美化 zsh                                   |
-| zsh-autosuggestions                                           | zsh 提示插件                               |
-| tmux                                                          | 终端复用                                   |
-| oh my tmux                                                    | 美化 tmux                                  |
-| git                                                           | 版本控制工具                               |
-| build-essential                                               | 基础开发工具(gcc g++ make 等)              |
-| i3                                                            | 窗口管理                                   |
-| xmonad                                                        | 窗口管理                                   |
-| qtile                                                         | 窗口管理                                   |
-| xmobar                                                        | 窗口状态条                                 |
-| i3blocks                                                      | 桌面状态栏配置工具                         |
-| rofi                                                          | 软件启动                                   |
-| thunar                                                        | 文件管理器                                 |
-| compton                                                       | 给你的窗口 duang ～增加特效                |
-| feh                                                           | 桌面壁纸                                   |
-| xrandr                                                        | 多显示器设置                               |
-| arandr                                                        | 多显示器设置(图形界面)生成 xrandr 命令     |
-| i3-gaps                                                       | 用于配置窗口边框                           |
-| vim                                                           | 文本编辑器                                 |
-| nvim                                                          | 文本编辑器                                 |
-| lunarvim                                                      | 基于 nvim 的一套配置(目前在用)             |
-| stacer                                                        | 系统监控(比较喜欢它的图形化界面管理下载源) |
-| docker                                                        | 容器管理                                   |
-| nvm                                                           | node 版本管理                              |
-| Anaconda                                                      | python 环境管理                            |
-| rpm                                                           | 包管理工具                                 |
-| exa/lsd                                                       | ls 的替代方案                              |
-| nnn                                                           | 命令行文件管理工具                         |
-| lazygit                                                       | 命令行 git tui 操作                        |
-| gitui                                                         | 命令行 git tui 操作                        |
-| zsh-fast-syntax-highlighting                                  | zsh 终端语法高亮                           |
-| zoxide                                                        | 有记忆的 cd 命令                           |
-| alacritty, st, kitty                                          | 终端们(目前在用 alacritty)                 |
-| vhs                                                           | 终端记录                                   |
-| fd, rg, bat, dust(现代版 du), duf(现代版 df), tokei(代码统计) | 日常工具                                   |
-| grex                                                          | 正则表达式生成                             |
+| 软件名称                                                      | 描述                                                                      |
+| ------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| v2ray2                                                        | 配置系统代理                                                              |
+| zsh                                                           | shell                                                                     |
+| fish                                                          | shell                                                                     |
+| oh my zsh                                                     | 美化 zsh                                                                  |
+| zsh-autosuggestions                                           | zsh 提示插件                                                              |
+| tmux                                                          | 终端复用                                                                  |
+| oh my tmux                                                    | 美化 tmux                                                                 |
+| git                                                           | 版本控制工具                                                              |
+| build-essential                                               | 基础开发工具(gcc g++ make 等)                                             |
+| i3                                                            | 窗口管理                                                                  |
+| xmonad                                                        | 窗口管理                                                                  |
+| qtile                                                         | 窗口管理                                                                  |
+| xmobar                                                        | 窗口状态条                                                                |
+| i3blocks                                                      | 桌面状态栏配置工具                                                        |
+| rofi                                                          | 软件启动                                                                  |
+| thunar                                                        | 文件管理器                                                                |
+| compton                                                       | 给你的窗口 duang ～增加特效                                               |
+| feh                                                           | 桌面壁纸                                                                  |
+| xrandr                                                        | 多显示器设置                                                              |
+| arandr                                                        | 多显示器设置(图形界面)生成 xrandr 命令                                    |
+| i3-gaps                                                       | 用于配置窗口边框                                                          |
+| vim                                                           | 文本编辑器                                                                |
+| nvim                                                          | 文本编辑器                                                                |
+| lunarvim                                                      | 基于 nvim 的一套配置(目前在用)                                            |
+| stacer                                                        | 系统监控(比较喜欢它的图形化界面管理下载源)                                |
+| docker                                                        | 容器管理                                                                  |
+| nvm                                                           | node 版本管理                                                             |
+| Anaconda                                                      | python 环境管理                                                           |
+| rpm                                                           | 包管理工具                                                                |
+| exa/lsd                                                       | ls 的替代方案                                                             |
+| nnn                                                           | 命令行文件管理工具                                                        |
+| lazygit                                                       | 命令行 git tui 操作                                                       |
+| gitui                                                         | 命令行 git tui 操作                                                       |
+| zsh-fast-syntax-highlighting                                  | zsh 终端语法高亮                                                          |
+| zoxide                                                        | 有记忆的 cd 命令                                                          |
+| alacritty, st, kitty                                          | 终端们(目前在用 alacritty)                                                |
+| vhs                                                           | 终端记录                                                                  |
+| fd, rg, bat, dust(现代版 du), duf(现代版 df), tokei(代码统计) | 日常工具                                                                  |
+| grex                                                          | 正则表达式生成                                                            |
+| FSearch                                                       | gtk3实现的unix-like文件搜索工具(很少用图形，我一般用命令行，但这个也不错) |
 
 > 注意: 为了使用支持 ligature 这个特性的 alacritty，可以使用一个低版本的folk [alacritty](https://github.com/zenixls2/alacritty/tree/ligature)
 > 下面命令构建 alacritty

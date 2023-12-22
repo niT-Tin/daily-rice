@@ -252,6 +252,7 @@ for_window [class=".*"] border pixel 5
 
 # 设置安卓模拟器浮动模式，非浮动模式会一直闪烁
 for_window [title="^Android Emulator*"] floating enable
+for_window [title="^FSearch*"] floating enable
 
 # for_window [instance=kitty] floating enable
 

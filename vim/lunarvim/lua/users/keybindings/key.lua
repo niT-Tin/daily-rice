@@ -24,6 +24,8 @@ lvim.keys.normal_mode = {
   -- 开启画图的快捷键
   ["<Leader>sv"] = ":lua require('users.opts.venn.opt').Toggle_venn()<CR>",
 }
+
+
 vim.cmd 'xmap ga <Plug>(EasyAlign)'
 vim.cmd 'nmap ga <Plug>(EasyAlign)'
 vim.keymap.set("i", "jk", "<Esc>")
@@ -32,6 +34,7 @@ vim.keymap.set('n', 'zR', require('ufo').openAllFolds)
 vim.keymap.set('n', 'zM', require('ufo').closeAllFolds)
 vim.keymap.set('n', 'zr', require('ufo').openFoldsExceptKinds)
 vim.keymap.set('n', 'zm', require('ufo').closeFoldsWith) -- closeAllFolds == closeFoldsWith(0)
+vim.keymap.set('v', 'b', '<Plug>(DBUI_ExecuteQuery)')
 vim.keymap.set('n', 'K', function()
     local winid = require('ufo').peekFoldedLinesUnderCursor()
     if not winid then

@@ -79,6 +79,7 @@ local function loadplgs()
     'users.plugins.lsp',
     'users.plugins.statuscol',
     'users.plugins.development',
+    'users.plugins.databases',
   }
   for _, v in ipairs(plugins) do
     local ok, plugin = pcall(require, v)

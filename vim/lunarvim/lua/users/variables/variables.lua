@@ -1,0 +1,10 @@
+lvim.leader = "space"
+-- vim.opt.timeoutlen = 150
+lvim.log.level = "warn"
+lvim.format_on_save.enabled = false
+vim.opt.termguicolors = true
+vim.opt.relativenumber = true
+vim.opt.wrap = true
+lvim.builtin.treesitter.highlight.enable = false
+vim.cmd('let g:db#adapter#mysql#command = "mycli"')
+vim.cmd('let g:db_ui_execute_on_save = 0')

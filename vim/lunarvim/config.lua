@@ -1,3 +1,6 @@
+-- variables
+-- 变量配置
+require('users.variables.variables')
 -- general
 -- buildin配置
 require('users.buildin.buildin')

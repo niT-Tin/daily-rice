@@ -143,8 +143,8 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH=$ANDROID_HOME:$PATH
 export PATH=/home/liuzehao/go/bin:$PATH
 # JAVA_HOME=/home/liuzehao/applications/jdks/jdk1.8.0_361
-# JAVA_HOME=/home/liuzehao/applications/jdks/jdk-11.0.18
-JAVA_HOME=/home/liuzehao/applications/jdks/jdk-17.0.6
+JAVA_HOME=/home/liuzehao/applications/jdks/jdk-11.0.18
+# JAVA_HOME=/home/liuzehao/applications/jdks/jdk-17.0.6
 # JAVA_HOME=/home/liuzehao/applications/jdks/jdk-19.0.2
 # JAVA_HOME=/home/liuzehao/applications/jdks/graalvm-ce-java17-22.3.2
 export PATH=$JAVA_HOME/bin:$PATH
@@ -153,12 +153,14 @@ export PF_ASCII="Endeavour"
 export PF_SEP=" : -> "
 export GOROOT=$HOME/applications/go
 
-
-
+# bob 的neovim版本管理，bin路径
+export PATH=$HOME/.local/share/bob/nvim-bin:$PATH
 # export GOROOT=$HOME/source/golang/go_1.20.5
 
-user_paths=$HOME/bin:$HOME/.local/share/lvim/mason/bin/:$HOME/.config/bspwm/scripts:$HOME/applications/flutter/bin:$HOME/applications/dart-sdk/bin:$HOME/.emacs.d/bin:$HOME/.local/bin:$PATH:$HOME/.cargo/bin:$HOME/source/llvm-root/build/bin:$GOROOT/bin:$HOME/anaconda3/bin:$HOME/applications/apache-maven-3.9.4/bin
-export PATH=$user_paths:$PATH
+user_paths=$HOME/bin:$HOME/.local/share/lvim/mason/bin/:$HOME/.config/bspwm/scripts:$HOME/applications/flutter/bin:$HOME/applications/dart-sdk/bin:$HOME/.emacs.d/bin:$HOME/.local/bin:$PATH:$HOME/.cargo/bin:$HOME/source/llvm-root/build/bin:$GOROOT/bin:$HOME/anaconda3/bin:$HOME/applications/apache-maven-3.9.4/bin:$HOME/applications/fvm
+sys_paths=/usr/share/bcc/tools
+# old version user_paths=$HOME/bin:$HOME/.local/share/lvim/mason/bin/:$HOME/.config/bspwm/scripts:$HOME/applications/flutter/bin:$HOME/applications/dart-sdk/bin:$HOME/.emacs.d/bin:$HOME/.local/bin:$PATH:$HOME/.cargo/bin:$HOME/source/llvm-root/build/bin:$GOROOT/bin:$HOME/anaconda3/bin:$HOME/applications/apache-maven-3.9.4/bin:$HOME/applications/fvm
+export PATH=$user_paths:$sys_paths:$PATH
 # export EDITOR=vim
 export EDITOR=/home/liuzehao/.local/bin/lvim
 
@@ -193,7 +195,9 @@ eval "$(/usr/local/bin/starship init zsh)"
 # neofetch --jp2a ~/.config/neofetch/image/zhiyin.png --colors 4 2 2 4 7 6
 # neofetch --kitty ~/.config/neofetch/image/dianji.jpg --colors 4 2 2 4 7 6
 # neofetch --jp2a ~/.config/neofetch/image/batmanb.png --colors 4 2 2 4 7 6
-$HOME/.config/i3/misc/asciiart/zhiyin
+# $HOME/.config/i3/misc/asciiart/zhiyin
+# 稍微修改了下neofetch源码，增加了--lines2，用于不要多余的空行，但是只是对于图像行数大于info行数的情况
+~/.config/i3/misc/asciiart/neofetch --config ~/.config/neofetch/config_small_V2.conf  --backend kitty --source ~/.config/neofetch/image/headcircle.png  --image_size none --lines2 1 --xoffset 1
 # $HOME/.config/i3/misc/asciiart/batman
 
 # 使用Ctrl+q 在命令行之前添加sudo
@@ -206,7 +210,8 @@ function prepend-sudo ()
 }
 zle -N prepend-sudo
 bindkey '^q' prepend-sudo
-bindkey '^j' autosuggest-accept
+# 这个快捷键貌似会让emacs的vterm回车失效
+# bindkey '^j' autosuggest-accept
 
 # 加载 fshow(使用fzf,git来查看git记录)
 autoload -U fshow
@@ -221,6 +226,9 @@ autoload -U ls
 # 模拟zsh下执行ls
 do-ls() { emulate -L zsh; clear;ls; }
 add-zsh-hook chpwd do-ls
+
+# 🤐，烦死了关掉声音
+unsetopt beep
 
 # 有趣的函数
 # 掀桌子

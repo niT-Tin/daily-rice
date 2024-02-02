@@ -49,6 +49,10 @@ https://fontawesome.com/v4/cheatsheet/
 
 ![](./images/nowaf.png)
 
+---
+
+![sys_he](./images/sys_he.png)
+
 ### 无聊的事(这个事情肯定不是最近的，但是我也忘记这是啥时候了，懒得查看了😁)
 
 最近在一块多余的硬盘上安装了 gentoo,不得不说，编译 chromium 是真的花时间..., 还有忘记打开i2c导致笔记本触控板不能用我是真的...(下次直接用现成的内核配置文件)

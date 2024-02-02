@@ -9,7 +9,5 @@ curl "https://www.bing.com/HPImageArchive.aspx?format=rss&idx=0&n=1&mkt=en-US" \
 )"
 
 bname="$(date '+%Y-%m-%d-%-H:%-M:%-S')"-bing-background.jpg
-curl -sS $imgurl -o ./"$bname"
-feh --bg-scale ./"$bname"
-
-
+curl -sS "$imgurl" -o ./"$bname"
+# feh --bg-scale ./"$bname"

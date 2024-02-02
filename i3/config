@@ -44,8 +44,8 @@ floating_modifier $mod
 
 # start a terminal
 # bindsym $mod+Return exec /usr/bin/alacritty
-# bindsym $mod+Return exec /usr/bin/kitty
-bindsym $mod+Return exec /home/liuzehao/applications/kitty/bin/kitty
+bindsym $mod+Return exec /usr/bin/kitty
+# bindsym $mod+Return exec /home/liuzehao/applications/kitty/bin/kitty
 # bindsym $mod+Return exec /usr/local/bin/st
 
 # kill focused window
@@ -219,15 +219,18 @@ bar {
 bindsym $mod+shift+x exec ~/.config/i3/scripts/blur-lock
 bindsym $mod+shift+v exec pavucontrol
 # bindsym $mod+shift+Return exec pcmanfm
-bindsym $mod+shift+Return exec thunar
+bindsym $mod+shift+Return exec nautilus
 bindsym $mod+shift+f exec flameshot gui
 # bindsym $mod+s exec rofi -no-lazy-grab -show drun -theme $HOME/.config/bspwm/rices/emilia/launcher.rasi
 # exec utools
 # exec_always ~/.config/i3/bing_wallpaper.sh
-exec ~/.screenlayout/nownormalLayout.sh
+# 学校三个屏幕的情况下
+# exec ~/.screenlayout/nownormalLayout.sh
+# 在家当前只有两个屏幕的情况下
+exec ~/.screenlayout/two_of_pandaLayout.sh
 # exec ~/.screenlayout/codeLayout.sh
 # exec /usr/bin/xmobar
-exec_always picom --experimental-backends
+exec_always picom --daemon --config $HOME/.config/picom/picom.conf
 # exec_always picom
 exec_always ~/.config/polybar/launch.sh --forest
 # exec $HOME/.local/bin/eww daemon

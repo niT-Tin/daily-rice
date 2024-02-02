@@ -42,6 +42,7 @@ END {
 		total=swap_total/1024/1024
 	} else {
 		free=mem_free/1024/1024
+    # printf("%.1fG\n", free)
 		used=(mem_total-mem_free)/1024/1024
 		total=mem_total/1024/1024
 	}
@@ -52,10 +53,12 @@ END {
 	}
 
 	# full text
-	# printf("%.1fG/%.1fG (%.f%%)\n", used, total, pct)
+  # ????
+	printf("%.1fG/%.1fG (%.f%%)\n", used, total, pct)
+	# printf("%.1fG/%.1fG (%.f%%)\n", mem_free/1024/1024, total, pct)
 
 	# short text
-	printf("%.f%%\n", pct)
+	# printf("%.f%%\n", pct)
 
 	# color
 	if (pct > 90) {

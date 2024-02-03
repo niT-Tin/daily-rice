@@ -197,7 +197,14 @@ eval "$(/usr/local/bin/starship init zsh)"
 # neofetch --jp2a ~/.config/neofetch/image/batmanb.png --colors 4 2 2 4 7 6
 # $HOME/.config/i3/misc/asciiart/zhiyin
 # 稍微修改了下neofetch源码，增加了--lines2，用于不要多余的空行，但是只是对于图像行数大于info行数的情况
-~/.config/i3/misc/asciiart/neofetch --config ~/.config/neofetch/config_small_V2.conf  --backend kitty --source ~/.config/neofetch/image/headcircle.png  --image_size none --lines2 1 --xoffset 1
+# ~/.config/i3/misc/asciiart/neofetch --config ~/.config/neofetch/config_small_V2.conf  --backend kitty --source ~/.config/neofetch/image/headcircle.png  --image_size none --lines2 1 --xoffset 1
+# 判断终端是kitty还是别的终端
+res=$(ps -o comm= -p "$(($(ps -o ppid= -p "$(($(ps -o sid= -p "$$")))")))")
+if [[ "$res" == 'kitty' ]]; then
+  ~/.config/i3/misc/asciiart/neofetch --config ~/.config/neofetch/config_small_V2.conf  --backend kitty --source ~/.config/neofetch/image/headcircle.png  --image_size none --lines2 1 --xoffset 1
+else
+  $HOME/.config/i3/misc/asciiart/zhiyin
+fi
 # $HOME/.config/i3/misc/asciiart/batman
 
 # 使用Ctrl+q 在命令行之前添加sudo

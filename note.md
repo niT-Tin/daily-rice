@@ -27,6 +27,7 @@
 * [vmware workstation 模块安装问题](#vmware-workstation-模块安装问题)
 * [bash, zsh在更新系统之后，命令前添加`sudo`前缀`<tab>`无法补全的问题](#bash-zsh在更新系统之后命令前添加sudo前缀tab无法补全的问题)
 * [bluetooth](#bluetooth)
+* [Alma-Worker](#alma-worker)
 
 > 防止我哪天失忆，因此写下这个提醒文件 —— lazyhippo
 
@@ -1005,3 +1006,9 @@ sudo pacman -S bash-completion
 6. Enter `pair MAC_address` to do the pairing (tab completion works).
 7. If using a device without a PIN, one may need to manually trust the device before it can reconnect successfully. Enter `trust MAC_address` to do so.
 8. Enter `connect MAC_address` to establish a connection.
+
+## Alma-Worker
+
+因为之前那个系统迁移导(中间出了点小差错)导致有两个AlmaLinux的虚拟机文件系统元数据损坏了。因为是xfs,可以使用xfs_repair。具体流程也简单明了。进入Live Usb(还是和之前一样，记得看博客系统迁移文章，vmware如何进入live usb)，然后先挂载对应分区(挂载之后自动重放日志)，之后卸载对应挂载点。最后使用`xfs_repair /dev/{对应分区}`即可
+
+![](./images/fdisk-repair.png)

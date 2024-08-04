@@ -1,0 +1,25 @@
+#!/usr/bin/bash
+IMG=/tmp/lockscreen.png && grim $IMG && wl-copy < $IMG && notify-send "Screenshot" "Saved & Copied";
+swaylock \
+--image $IMG \
+--indicator \
+--clock \
+--inside-wrong-color f38ba8  \
+--ring-wrong-color 161925  \
+--inside-clear-color a6e3a1 \
+--ring-clear-color 161925 \
+--inside-ver-color 89b4fa \
+--ring-ver-color 161925 \
+--text-color  f5c2e7 \
+--indicator-radius 100 \
+--indicator-thickness 5 \
+--effect-blur 9x8 \
+--effect-vignette 0.6:0.6 \
+--ring-color 161925 \
+--key-hl-color f5c2e7 \
+--line-color 313244 \
+--inside-color 00161925 \
+--separator-color 00000000 \
+--fade-in 0.2 &
+
+# sleep 2; ~/.config/hypr/scripts/screenshot_full
